@@ -1,5 +1,11 @@
-'use strict';
+"use strict";
 
 module.exports = function createUpdatedCollection(collectionA, objectB) {
-  return '实现练习要求，并改写该行代码。';
-}
+  collectionA.map(item => {
+    if (objectB.value.includes(item.key)) {
+      item.count--;
+    }
+  });
+
+  return collectionA;
+};
