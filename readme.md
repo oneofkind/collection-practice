@@ -25,7 +25,7 @@
 * 使用快捷键编码
 
 ## 交付物
-以上三个大的主题练习需求，在代码库的`spec`（测试目录）下的section-1, section-2, section-3中的测试代码中有文字说明。对应的代码实现在`main`目录下，例如：`spec/section-1/practice-1-spec.js`中的测试实现需要写在`main/section-1/practice-1.js`中。
+以上三个大的主题练习需求，在代码库的`spec`（测试目录）下的section-1, section-2, section-3中的测试代码中有文字说明。对应的代码实现在`main`目录下，例如：`spec/section-1/practice-1-spec.js`中的测试实现需要写在`main/section-1/practice-1.js`中
 
 ## 环境
 JavaScript ES6。
